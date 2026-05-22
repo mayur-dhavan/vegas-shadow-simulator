@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.venv/
+venv/
+env/
+
+# Local environment
+.env
+.env.*
+
+# Test and lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime artifacts
+*.log
+tournament_runs.db
+tournament_runs.db-shm
+tournament_runs.db-wal
+
+# Editor files
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Next.js / frontend
+vegas-ui/node_modules/
+vegas-ui/.next/
+vegas-ui/out/
+vegas-ui/.turbo/
+
+# Package manager artifacts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
